@@ -3,14 +3,30 @@ import requests
 import pandas as pd
 
 # ==============================
-# 🌍 EUROPE COUNTRY LIST
+# 🌍 FULL EUROPE COUNTRY LIST (20)
 # ==============================
 
 EUROPE_COUNTRIES = [
-    "Spain", "Germany", "France", "Italy",
-    "Netherlands", "Sweden", "Norway", "Finland",
-    "Denmark", "Belgium", "Portugal",
-    "Switzerland", "Austria", "Ireland"
+    "Germany",
+    "France",
+    "Italy",
+    "Spain",
+    "Netherlands",
+    "Sweden",
+    "Ireland",
+    "Austria",
+    "Finland",
+    "Denmark",
+    "Belgium",
+    "Portugal",
+    "Czech Republic",
+    "Poland",
+    "Hungary",
+    "Greece",
+    "Estonia",
+    "Luxembourg",
+    "Malta",
+    "Cyprus"
 ]
 
 st.title("🎓 European Universities Directory")
@@ -48,3 +64,6 @@ if st.button("📋 Fetch Universities"):
 
     except Exception as e:
         st.error("Something went wrong while fetching data.")
+
+st.markdown("---")
+st.caption("Built by Arshad | European University Directory Tool")
