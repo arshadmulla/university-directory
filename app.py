@@ -26,6 +26,7 @@ EUROPE_COUNTRIES = [
     "Estonia",
     "Luxembourg",
     "Malta",
+    "Switzerland",
     "Cyprus"
 ]
 
